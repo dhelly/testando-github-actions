@@ -1,0 +1,12 @@
+name: 01 - Meu primeiro workflow
+
+on: [push]
+
+jobs:
+    
+  dizer_ola:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Passo 01 - Mostra Mensagem
+        run: echo "Ola, mundo!"
+    
