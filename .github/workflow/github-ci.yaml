@@ -9,4 +9,3 @@ jobs:
     steps:
       - name: Passo 01 - Mostra Mensagem
         run: echo "Ola, mundo!"
-    
